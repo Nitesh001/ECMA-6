@@ -1,0 +1,30 @@
+1. Inheritance in ES6:
+class C extends P{
+	constructor(){
+		super();
+	}
+
+	fun1(){
+
+	}
+
+	fun2(){
+
+	}
+
+}
+
+let obj = new C();
+
+2. Generators in ES6:
+
+function* sampleGenerators(){
+	yield "Hello";
+	yield "Bye";
+}
+
+let test = sampleGenerators();
+test.next();
+test.next();
+
+After every next(), the execution gets paused.
